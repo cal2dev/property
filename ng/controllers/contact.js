@@ -5,7 +5,7 @@ App.controller('contactController', ['$scope','$rootScope','dataFactory','Notifi
 	$scope.details={};
 	$scope.details.locality='0';
 	$scope.details.city='0';
-alert($scope.routeName);
+
 	/*****************************
 	 * Getting Location data
 	 *****************************/
