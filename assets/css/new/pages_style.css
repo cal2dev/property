@@ -1,0 +1,145 @@
+/* Pages Css */
+
+.red-mid {
+    background: #3C8DBC;
+    width: 128px;
+    margin: 12px auto;
+}
+.divider {
+    height: 1px;
+    display: block;
+}
+ .cardWrap {
+    outline: #ccc solid 1px;
+    width: 65.744681%;
+    padding: 40px 0;
+    float: left;
+        margin: 1px;
+}
+.mailWrap {
+    border-right: 1px solid #ccc;
+    padding: 0 40px;
+    z-index: 99;
+}
+textarea#message {
+    margin-bottom: 3em;
+}
+textarea#message, input#email {
+    width: 100%;
+    background: url(../../images/contactTextDots.png) repeat top;
+    min-height: 100%;
+    line-height: 21px;
+    color: #666;
+    overflow-y: hidden;
+}
+textarea, input {
+    font-style: italic;
+    letter-spacing: normal;
+    font-size: 0.95em;
+    letter-spacing: 0.025em;
+    font-weight: 500;
+        outline: none;
+    resize: none;
+    border: 0;
+    background: none;
+     padding: 0; 
+     line-height: 0; 
+}
+input#email {
+    height: 22px;
+}
+input#email {
+    width: 100%;
+    background: url(../../images/contactTextDots.png) repeat top;
+    min-height: 100%;
+    line-height: 21px;
+    color: #666;
+    overflow-y: hidden;
+}
+.submitHover:hover {
+    border: 1px solid #3C8DBC;
+    color: #fff;
+    background: #3C8DBC;
+}
+.btn {
+    text-align: center;
+    font-size: 0.8125em;
+    letter-spacing: 0.174em;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: "proxima-nova",sans-serif;
+}
+.submit {
+    height: 30px;
+    border: 1px solid #1a1a1a;
+    margin: 40px 0 0;
+    display: block;
+    line-height: 26px !important;
+    color: #1a1a1a;
+    padding: 0 22px;
+}
+#stamp {
+    float: right;
+    margin: -20px 20px 0 0;
+    height: 124px;
+    width: 86px;
+    border: #ccc solid 1px;
+    z-index: 2;
+}
+#stamp_pic {
+       border: 1px solid #CCC;
+    padding: 5px;
+}
+.control-label {
+    text-align: left !important;
+}
+.well{
+	border-radius: 0;
+    background-color: #f7f7f7;
+    border-color: #fff;
+}
+.form-control{
+    border: 1px solid #ccc;
+    font-family: source-sans-pro, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+}
+#contact {
+	    background-color: #fff;
+}
+#works {
+     padding: 0; 
+}
+.connect_desc {
+    border-top: 1px solid #ccc;
+    display: inline;
+    float: left;
+    width: 100%;
+    padding: 12px 0;
+}
+input::-webkit-input-placeholder {
+     color: #444 !important;
+    font-weight: 500 !important; 
+}
+ 
+input:-moz-placeholder { /* Firefox 18- */
+     color: #444 !important;
+    font-weight: 500 !important; 
+}
+ 
+input::-moz-placeholder {  /* Firefox 19+ */
+    color: #444 !important;
+    font-weight: 500 !important; 
+}
+ 
+input:-ms-input-placeholder {  
+     color: #444 !important;
+    font-weight: 500 !important; 
+}
+select option {
+    margin:40px;
+    background: rgba(0,0,0,0.3);
+    color:#fff;
+    text-shadow:0 1px 0 rgba(0,0,0,0.4);
+}
